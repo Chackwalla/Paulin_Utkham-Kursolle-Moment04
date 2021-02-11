@@ -3,7 +3,7 @@
 import random as rnd
 
 
-stop = int(input("How many loops do you wanna do?"))
+#stop = int(input("How many loops do you wanna do? "))
 
 while True:
     f = input("Vill du göra en ny beräkning? (ja/nej): ")
@@ -12,10 +12,11 @@ while True:
 
     k = 0
     
-    kort = int(input("Korta sidan"))
+    kort = int(input("Korta sidan: "))
   
-    long = int(input("långa sidan"))
+    long = int(input("långa sidan: "))
 
+    """
     while k == 0:
         höjd = int(input("Höjden: "))
     
@@ -29,7 +30,7 @@ while True:
 
         elif höjd > 10:
             höjd = 10
-        
+    """     
 
     # beräkna och skriv ut rektangelns area
     area=kort*long

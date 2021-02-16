@@ -1,7 +1,7 @@
 # Inlämmningsuppgift moment 04
 
 # Skapa en loop som bryter när användaren inte vill göra fler beräkningar
-stop = int(input("How many loops do you wanna do? "))
+#?? stop = int(input("How many loops do you wanna do? "))
 
 while True:
     f = input("Vill du göra en ny beräkning? (ja/nej): ")
@@ -11,7 +11,7 @@ while True:
   
     long = int(input("långa sidan: "))
 
-  # Beräkna och skriv ut arean på rektangeln samt lagra i listan
+  # Beräkna och skriv ut arean på rektangeln samt lagra i listan <-------
     area=kort*long
 
     print(area)
@@ -19,7 +19,7 @@ while True:
   # Om bägge sidorna är lika långa...
     if kort == long:
 
-    # ... tala om att det är en kvadrat och skriv detta i listan
+    # ... tala om att det är en kvadrat och skriv detta i listan <-----
         print("Detta är en kvadrat")
 
   # Loopa höjden från 1 till 10
